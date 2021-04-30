@@ -13,7 +13,6 @@ const Invest = () => {
                             <h1 className="nav_headline" ><strong className="strong_invest">invest in</strong> shree gajanan urban mudra nidhi limited   </h1>
                             <p className="my-3 header_paragraph">Use modern progressive technologies of <strong className="strong_paragraph">SHREE GAJANAN URBAN MUDRA NIDHI LTD </strong>to earn money</p>
                             <div className="mt-3 d-flex justify-content-center">
-                            <input type="email" placeholder="Enter your email" class="form-control input-email" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                             <NavLink to="/" className="btn-get-started" >
                                     Get Started
                             </NavLink>

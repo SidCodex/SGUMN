@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 import Scheme from '../src/image/Scheme.jpeg';
-import Productcard from './Productcard';
+import Cards from "./CARDS/Cards";
 import Newsletter from  './Newsletter';
 import Partners from './Partners';
 
@@ -32,7 +32,7 @@ const Product = ()     =>{
                 </div>
             </div>
         </section>
-       <Productcard />
+       <Cards />
        <Partners/>
        <Newsletter />
         </>

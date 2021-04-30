@@ -1,9 +1,11 @@
 import React from 'react';
-
+import Homeabout from './Homeabout';
+import Team from './Team';
 const Resource = ()     =>{
     return(
         <>
-        <h1>Welcome Resources Page</h1>
+        <Homeabout />
+        <Team />
         </>
     );
 };

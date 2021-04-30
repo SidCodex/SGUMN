@@ -12,8 +12,8 @@ const Partners = () => {
                      <div className="row">
                      <div className="col-lg-6 order-2 order-lg-1 partner-img d-flex justify-contetnt-center">
                             <img src={Pic1} className="img-fluid" alt="header-image" />
-                            <img src={Pic1} className="img-fluid" alt="header-image" />
-                            <img src={Pic1} className="img-fluid" alt="header-image" />
+                            <img src={Pic2} className="img-fluid" alt="header-image" />
+                            <img src={Pic3} className="img-fluid" alt="header-image" />
                         </div>
                         <div className="col-md-6 pt-5 pt-md-0 order-1 order-lg-2 d-flex  flex-column">
                         <p>"SHREE GAJANAN URBAN MUDRA NIDHI LTD is exciting because it shows how cheap it can be. SHREE GAJANAN URBAN MUDRA NIDHI LTD is better than currency in that you don’t have to be physically in the same place and, of course, for large transactions, currency can get pretty inconvenient.”</p>

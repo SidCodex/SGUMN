@@ -10,6 +10,7 @@
   margin-top: 10rem;
  
 }
+
 #header{
   background-image: url('./image/hero-bg.png');
   background-position: center;
@@ -34,7 +35,44 @@
   background: #3498db;
   color: #fff;
 }
-
+.main-head h1{
+  font-size: 4rem;
+}
+.cards{
+  width: 20rem;
+}
+.cards:hover{
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important;
+}
+.card-bodys{
+  padding: 3rem 0 !important;
+  background-color: aliceblue;
+}
+.card-texts{
+  font-size: 0.9rem;
+  padding: 0.4rem 1.9rem;
+}
+.card-container{
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+.card-img-top{
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+.overflow{
+  overflow: hidden;
+}
+.card-img-top:hover{
+  transform: scale(1.5);
+}
+.navbar-brand img{
+  width: 100px;
+  height: 100px;
+}
+.navbar-nav{
+  padding-right: 10rem !important;
+}
 .navbar{
   background: #fff !important;
 }
@@ -131,10 +169,12 @@ margin-top: 10rem;
 }
 .card{
   margin: 6%;
-  transition: all o.4s cubic-bezier(o.175,0.885,0,1);
+  transition: all o.4s cubic-bezier(0.175,0.885,0,1);
   border-radius: 12px;
   box-shadow:0px 13px 18px -8px rgba(0,0,0,0.1);
   float: left;
+  overflow: hidden;
+  transform: scale(1);
 }
 .card-img-top{ 
    height: 200px;
@@ -165,4 +205,74 @@ margin-top: 10rem;
 }
 #newsletter .newsBtn{
   color:#fff;
+}
+.process_head h1{
+  color:#3498db !important;
+  font-size: 3.5rem;
+}
+.process_head p{
+color: slategray;
+}
+.Team_head h1{
+color: #3498db;
+}
+.Team_head p{
+  font-size: 15px;
+  padding-top: 2rem;
+  color: slategray;
+}
+.ceo{
+  background-color:#17a2b8;
+  height: 10vh;
+  box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important; 
+}
+.ceo h3{
+  padding-top: 0.7rem;
+  color: #fff;
+  font-size: 35px;
+}
+.Team_para h1{
+  margin-top: 3rem;
+  color: #3e2bce;
+  text-align: center;
+}
+.Team_para .about_paragraph1{
+  text-align: center;
+  font-weight: 600;
+}
+#Team .ceo_img{
+  padding-top: 3rem;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+#Team .ceo_img:hover{
+  transform: scale(1.1);
+}
+
+
+#button-addon1 {
+  color: #ffc371
+}
+
+i {
+  color: #0000cc;
+  font-size: 20px
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none
+}
+
+.display-3 {
+  font-family: 'Sanchez', serif
+}
+.lead {
+  font-family: 'Sanchez 200', serif
 }

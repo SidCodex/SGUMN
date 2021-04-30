@@ -5,10 +5,12 @@ import Rdata from './Rdata';
 const Process = () => {
     return(
         <>
-        <section>
-            <div className="my-5">
+        <section id="process" className="my-5">
+            <div className="col-10 mx-auto">
+            <div className="my-3 process_head">
                 <h1 className="text-center">Get Started With SHREE GAJANAN URBAN MUDRA NIDHI LTD</h1>
                 <p>Start learning about SHREE GAJANAN URBAN MUDRA NIDHI LTD with interactive tutorials. It’s fun, easy, and takes only a few minutes for opening Deposit and Investment Account.!</p>
+            </div>
             </div>
             <div className="container-fluid mb-5">
                 <div className="row">
