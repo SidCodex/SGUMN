@@ -4,7 +4,7 @@ const Newsletter = () => {
 
     return(
         <>
-          <section id="newsletter" className="d-flex align-item-center my-5">
+          <section id="newsletter" className="d-flex align-item-center my-5 ">
             <div className="container-fluid nav_bg">
                 <div className="row">
                     <div className="col-10 mx-auto">

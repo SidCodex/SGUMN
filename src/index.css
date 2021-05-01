@@ -114,7 +114,7 @@
   margin-right: 2rem;
 }
 
-#header .animated{
+ .animated{
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 @-webkit-keyframes up-down {
@@ -276,3 +276,234 @@ i {
 .lead {
   font-family: 'Sanchez 200', serif
 }
+/*Contact form*/
+
+#contact .box
+{
+	width: 400px;
+	position: absolute;
+	top:65%;
+	left: 75%;
+	transform: translate(-50%,-50%);
+	background:#fff;
+	padding: 50px;
+	box-sizing: border-box;
+	border:2px solid rgba(0,0,0,.1);
+	border-radius: 20px;
+	box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+#contact .box h2
+{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	/*margin:0 0 40px;
+	padding: 0;*/
+	color:#f7497d;
+	text-transform: uppercase;
+}
+#contact .box input
+{
+	padding: 10px 0;
+	margin-bottom: 30px;
+}
+#contact .box textarea
+{
+	height: 80px;
+	padding: 10px 0;
+	margin-bottom: 40px;
+}
+#contact .box input,
+#contact .box textarea
+{
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	border:none;
+	border-bottom: 2px solid #999;
+}
+#contact .box textarea
+{
+	margin-bottom: 20px;
+	max-width: 100%;
+}
+#contact .box input[type="submit"]
+{
+	background-color: #f7497d;
+	border-bottom: none;
+	cursor: pointer;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+#contact .box form div
+{
+	position:sticky;
+}
+#contact .box form div label
+{
+	position: absolute;
+	top:10px;
+	left: 0;
+	pointer-events: none;
+	transition: .5s;
+	color:#999;
+}
+#contact .box input:focus ~ label,
+#contact .box textarea:focus ~ label,
+#contact .box input:valid ~ label,
+#contact .box textarea:valid ~ label
+{
+	top:-20px;
+	left: 0;
+	color:#f7497d;
+	font-size: 16px;
+}
+#contact .box input:focus,
+#contact .box textarea:focus,
+#contact .box input:valid,
+#contact .box textarea:valid
+{
+	border-bottom: 2px solid #f7497d;
+}
+#contact .box .img img
+{
+	margin-top: -1%;
+	margin-left: 34%;
+	left: 100px;
+	height: 100px;
+	
+}
+#contact .image img
+{
+	height: 500px;
+	width:500px;
+	display: flex;
+	margin-left: 10%;
+	margin-top: 8%;
+}
+#contact .btn
+{
+
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #f7497d, #32be8f, #38d39f, #f7497d);
+	background-size: 200%;
+	border-bottom: none;
+	font-size: 1.2rem;
+	color: #000;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
+#contact .btn:hover{
+	background-position: right;
+}
+
+input:invalid {
+	border-color: rgb(255, 0, 43);
+  }
+
+  /*Partners*/
+
+  .testimonials-clean {
+    color:#313437;
+    background-color:#eef4f7;
+  }
+  
+  .testimonials-clean p {
+    color:#7d8285;
+  }
+  
+  .testimonials-clean h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .testimonials-clean h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .testimonials-clean .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+  }
+  
+  .testimonials-clean .intro p {
+    margin-bottom:0;
+  }
+  
+  .testimonials-clean .people {
+    padding:50px 0 20px;
+  }
+  
+  .testimonials-clean .item {
+    margin-bottom:32px;
+  }
+  
+  @media (min-width:768px) {
+    .testimonials-clean .item {
+      height:220px;
+    }
+  }
+  
+  .testimonials-clean .item .box {
+    padding:30px;
+    background-color:#fff;
+    position:relative;
+  }
+  
+  .testimonials-clean .item .box:after {
+    content:'';
+    position:absolute;
+    left:30px;
+    bottom:-24px;
+    width:0;
+    height:0;
+    border:15px solid transparent;
+    border-width:12px 15px;
+    border-top-color:#fff;
+  }
+  
+  .testimonials-clean .item .author {
+    margin-top:28px;
+    padding-left:25px;
+  }
+  
+  .testimonials-clean .item .name {
+    font-weight:bold;
+    margin-bottom:2px;
+    color:inherit;
+  }
+  
+  .testimonials-clean .item .title {
+    font-size:13px;
+    color:#9da9ae;
+  }
+  
+  .testimonials-clean .item .description {
+    font-size:15px;
+    margin-bottom:0;
+  }
+  
+  .testimonials-clean .item img {
+    max-width:40px;
+    float:left;
+    margin-right:12px;
+    margin-top:-5px;
+  }
+  
+  
